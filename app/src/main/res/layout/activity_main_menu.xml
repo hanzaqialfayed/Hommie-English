@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".MainMenu">
+
+    <ImageButton
+        android:id="@+id/icon_sound_on_off"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:src="@drawable/audio"
+        android:layout_gravity="top|end"
+        android:scaleType="fitXY"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Layout 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/learn_layout"
+            android:layout_width="170dp"
+            android:scaleType="fitXY"
+            android:layout_height="170dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/rounded_background_color"
+            android:src="@drawable/learning_btn">
+
+        </ImageButton>
+
+    </LinearLayout>
+    <!-- Layout 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/achievement_layout"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/rounded_background_color"
+                android:src="@drawable/achivement_btn" />
+
+            <ImageButton
+                android:id="@+id/task_layout"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="@drawable/rounded_background_color"
+                android:scaleType="fitXY"
+                android:src="@drawable/task_btn" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/learn_layout"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/learn_image"
+                android:layout_width="75sp"
+                android:src="@drawable/learn_image"
+                android:layout_height="75sp">
+            </ImageView>
+            <TextView
+                android:background="@drawable/background_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:paddingLeft="10sp"
+                android:gravity="left|center"
+                android:textColor="@color/white"
+                android:text="Learning">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/achievement_layout"
+            android:clickable="true"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/achievement_image"
+                android:layout_width="75sp"
+                android:src="@drawable/achv_image"
+                android:layout_height="75sp">
+            </ImageView>
+            <TextView
+                android:background="@drawable/background_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:gravity="left|center"
+                android:textColor="@color/white"
+                android:paddingLeft="10sp"
+                android:text="Achievement">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/task_layout"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/task_image"
+                android:layout_width="75sp"
+                android:src="@drawable/task_image"
+                android:layout_height="75sp">
+            </ImageView>
+            <TextView
+                android:background="@drawable/background_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:gravity="left|center"
+                android:paddingLeft="10sp"
+                android:textColor="@color/white"
+                android:text="Task">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    -->
+</LinearLayout>

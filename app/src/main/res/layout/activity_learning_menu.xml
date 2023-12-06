@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+    <!-- Layout 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/learning_btn"
+            android:layout_width="286dp"
+            android:layout_height="182dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/learning_materials">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <!-- Layout 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/practice_btn"
+            android:layout_width="286dp"
+            android:layout_height="182dp"
+            android:layout_gravity="top"
+            android:background="@drawable/practice_now">
+
+        </ImageButton>
+
+    </LinearLayout>
+</LinearLayout>

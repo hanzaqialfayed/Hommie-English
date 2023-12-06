@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/custom_dialog_layout"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_color">
+
+    <!-- Tambahkan TextView untuk menampilkan pesan -->
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/background_color" /> <!-- Ganti 'button_background' dengan background yang diinginkan -->
+
+</LinearLayout>

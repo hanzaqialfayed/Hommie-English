@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/main_background"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/titleRegister"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_subtitle"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/archivo_black_regular"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/et_register_name"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/archivo_black_regular"
+            android:text="@string/register"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/titleRegister"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_register_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="text"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_above="@id/et_register_email"
+            android:background="@drawable/et_custom"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/e_mail"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_above="@id/et_register_password"
+            android:background="@drawable/et_custom"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_register_password"
+            android:background="@drawable/btn_custom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@android:color/white"
+            android:text="@string/sign_up"/>
+
+        <TextView
+            android:id="@+id/already_have_account"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:clickable="true"
+            android:text="Already Have Account? Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

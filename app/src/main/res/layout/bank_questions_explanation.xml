@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_background"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/bank_question_explanation_layout"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="50dp"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_color"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:text="1. Questions: ABECE"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:text="Current Answer: ABECE"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:padding="16dp"
+                    android:layout_height="wrap_content"
+                    android:text="Correct Answer: abecede"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:padding="16dp"
+                    android:layout_height="wrap_content"
+                    android:text="Explanation: abecede e ef gehaije"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            -->
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

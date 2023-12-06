@@ -1,0 +1,1744 @@
+{
+  "user": {
+    "id": 1,
+    "name": "admin",
+    "password": "admin",
+    "email": "admin@admin.com"
+  },
+  "learningMaterials": [
+    {
+      "id": 1,
+      "videoUrl": "https://www.youtube.com/embed/82TbAG0xRFU",
+      "title": "Let's Protect Our Environment",
+      "description": "",
+      "image_button_name": "unit_1",
+      "unit": 1
+    },
+    {
+      "id": 2,
+      "videoUrl": "https://www.youtube.com/embed/BbPGXll7Uko",
+      "title": "You Look Prettier In Kebaya Clothes",
+      "description": "",
+      "image_button_name": "unit_2",
+      "unit": 2
+    },
+    {
+      "id": 3,
+      "videoUrl": "https://www.youtube.com/embed/UJnPNvZNikw",
+      "title": "Internet Is The Best Invention",
+      "description": "",
+      "image_button_name": "unit_3",
+      "unit": 3
+    },
+    {
+      "id": 4,
+      "videoUrl": "https://www.youtube.com/embed/UxfY2ZJXslE",
+      "title": "How Much Does It Cost",
+      "description": "",
+      "image_button_name": "unit_4",
+      "unit": 4
+    },
+    {
+      "id": 5,
+      "videoUrl": "https://www.youtube.com/embed/GJl7SaTSSzc",
+      "title": "How Are You Feeling?",
+      "description": "",
+      "image_button_name": "unit_5",
+      "unit": 5
+    },
+    {
+      "id": 6,
+      "videoUrl": "https://www.youtube.com/embed/3Dib93MS2cc",
+      "title": "The Heroes Are Very Brave",
+      "description": "",
+      "image_button_name": "unit_6",
+      "unit": 6
+    },
+    {
+      "id": 7,
+      "videoUrl": "https://www.youtube.com/embed/P8W1Q5sYz-k",
+      "title": "Antarctica Is The Coldest Place On Earth",
+      "description": "",
+      "image_button_name": "unit_7",
+      "unit": 7
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "unitId": 1,
+      "type": "image",
+      "question": "What is the poster about ?",
+      "content": "unit1_image1",
+      "sequence": "1",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "easy",
+      "answers": [
+        {
+          "id": 1,
+          "answerText": "Protected Animal",
+          "isCorrectAnswer": true,
+          "explanation": "di Indonesia kita mempunyai banyak satwa yang dilindungi, salah satu dari ketiga satwa tersebut. jadi kita tidak boleh memburu mereka karena keberadaannya terancam punah, jadi jawaban yang paling tepat adalah “Protected Animal\""
+        },
+        {
+          "id": 2,
+          "answerText": "Hunt Animal",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 3,
+          "answerText": "Big Animal",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 4,
+          "answerText": "Small Animal",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "unitId": 1,
+      "type": "image",
+      "question": "Do you know the name of the animal in the poster ? mention them",
+      "assetUrl": "",
+      "content": "",
+      "sequence": "2",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 5,
+          "answerText": "Tiger, Bee , Ant",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 6,
+          "answerText": "Shark, Bird , Lion",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 7,
+          "answerText": "Tiger, Orang Utan, Rhinocerus",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 8,
+          "answerText": "Cat,Dog,Fish",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "unitId": 1,
+      "type": "text",
+      "question": "Sumatran Tigers Live only in Indonesia",
+      "content": "Read Aloud Following The Text\nDo you know Sumatran Tiger? Sumatran tiger is a species of tiger that can be found in Indonesia, especially in Sumatra Island. Sumatran tiger is the smallest tiger of the nine subspecies of tiger. The male Sumatran tiger can grow about 100 kg to 140 kg. Like all tigers, Sumatran tiger also has a thick dark orange coat with thick black stripes. Do you know that no two tigers have the same black stripes? Sadly, Sumatran tigers are now very difficult to find living in the wild. It is said that only around 600 Sumatran tigers live in the wild. Now, the Sumatran tiger is listed as one of the critically endangered animals in the world and may become extinct because their population is decreasing. The population of Sumatran tigers keeps decreasing because of illegal logging and illegal hunting. People cut down the trees in the forests to make oil palm plantatíon. They also burn the forest to clear the land. People also hunt the tigers to get the skin and the fangs and sell it.\n",
+      "sequence": "3",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "easy",
+      "answers": [
+        {
+          "id": 9,
+          "answerText": "true",
+          "isCorrectAnswer": true,
+          "explanation": "Based on this question, you have to pay close attention that Sumatran tigers only exist in Indonesia. so the answer is TRUE"
+        },
+        {
+          "id": 10,
+          "answerText": "false",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "unitId": 1,
+      "type": "text",
+      "question": "The Male Sumatran Tiger can grow until 140kg",
+      "content": "",
+      "sequence": "4",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 11,
+          "answerText": "true",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 12,
+          "answerText": "false",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "unitId": 1,
+      "type": "text",
+      "question": "People Hunt Tigers To sell their skin",
+      "content": "",
+      "sequence": "5",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 13,
+          "answerText": "true",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 14,
+          "answerText": "false",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "unitId": 1,
+      "type": "text",
+      "question": "The population of sumatran tiger keeps growing",
+      "content": "",
+      "sequence": "6",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "easy",
+      "answers": [
+        {
+          "id": 15,
+          "answerText": "true",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 16,
+          "answerText": "false",
+          "isCorrectAnswer": true,
+          "explanation": "based on the explanation of the story that the Sumatran tiger experienced population extinction and therefore their breeding stopped. so the most correct answer is FALSE"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "unitId": 1,
+      "type": "text",
+      "question": "To Save water, we must …… Long Showers",
+      "content": "",
+      "sequence": "7",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 17,
+          "answerText": "Bring",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 18,
+          "answerText": "Reduce",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 19,
+          "answerText": "Turn Off",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 20,
+          "answerText": "Bring",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "unitId": 1,
+      "type": "text",
+      "question": "We Must…… Plastic bottles And Bags We have At Home",
+      "content": "",
+      "sequence": "8",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 21,
+          "answerText": "Plant",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 22,
+          "answerText": "Hunt",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 23,
+          "answerText": "Bring",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 24,
+          "answerText": "Recycle",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "unitId": 2,
+      "type": "image",
+      "question": "That Thing is About ?",
+      "content": "unit2_image1",
+      "sequence": "1",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 25,
+          "answerText": "Part Of Culture Indonesia",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 26,
+          "answerText": "Dances From Indonesia",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 27,
+          "answerText": "History Of Indonesia",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 28,
+          "answerText": "Tradisional Music",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "unitId": 2,
+      "type": "image",
+      "question": "Where We Can Find All Of Them ?",
+      "content": "",
+      "sequence": "2",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 29,
+          "answerText": "Internet",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 30,
+          "answerText": "TV",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 31,
+          "answerText": "Radio",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 32,
+          "answerText": "Indonesia",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "unitId": 2,
+      "type": "text",
+      "question": "How Many Island Are The In Indonesia?",
+      "content": "Read About The Following Text\nTraditíonal Dances We should be proud of being Indonesia. It is a big country. There are more than 17,000 islands in Indonesia. So, it has many different cultures and languages. Do you know that there are more than 700 languages in our country? How cool it is! Our country has many different cultures, so there are also many tradítíonal dances. Each region in Indonesia has their own tradítíonal dances. Sorme of the dances are very famous among tourísts such as Kecak dance and Legong dance from Balí. They are famous because Bali ís number 1 touríst destination ín Indonesía. In Ponorogo, East Java, Reog is very popular. The dancers wear very big mask called Singa Barong. The mask is about 30-40 kg in weight. In Jogja, there ís a sacred dance called Bedhaya. Thís dance is so sacred that it must be performed by níne women who has to fast before performing the dance. From Aceh, North Sumatra, Saman ís probably the most famous dance. Saman ís also called the dance of a thousand hands. It is done by agroup of people without music instruments. Saman begins slowly ina rhythmic manner but gradually becomes faster as the dance progresses. To control the movement, a sínger usually recites traditional poems. There are many more traditional dances from lndonesia such as Jaipong dance from East Java, Yapong dance from Jakarta, Piring dance frorm Minangkabau, and Tor-Tor dance from North Sumatra.",
+      "sequence": "3",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "easy",
+      "answers": [
+        {
+          "id": 33,
+          "answerText": "More Than 700",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 34,
+          "answerText": "More Than 1700",
+          "isCorrectAnswer": true,
+          "explanation": "Based on the narration of the question above, it is explained that Indonesia has more than 1700 islands spread throughout Indonesia"
+        },
+        {
+          "id": 35,
+          "answerText": "34",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 36,
+          "answerText": "35",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "unitId": 2,
+      "type": "text",
+      "question": "What Dances From Bali?",
+      "content": "",
+      "sequence": "4",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "easy",
+      "answers": [
+        {
+          "id": 37,
+          "answerText": "Piring Dances",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 38,
+          "answerText": "Saman Dances",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 39,
+          "answerText": "Reog Dances",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 40,
+          "answerText": "Kecak Dances And Legong Dances",
+          "isCorrectAnswer": true,
+          "explanation": "Based on the narration of the question above, it is explained that Bali has dances called Kecak dances and Legong dances"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "unitId": 2,
+      "type": "text",
+      "question": "What Is Singa Barong",
+      "content": "",
+      "sequence": "5",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 41,
+          "answerText": "Big Animal",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 42,
+          "answerText": "Beast Animal",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 43,
+          "answerText": "Big Mask",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 44,
+          "answerText": "Name Of Dances",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "unitId": 2,
+      "type": "text",
+      "question": "Where Does Saman Dances Come From",
+      "content": "",
+      "sequence": "6",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 45,
+          "answerText": "Bali",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 46,
+          "answerText": "Sumatera",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 47,
+          "answerText": "Jawa",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 48,
+          "answerText": "Aceh",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "unitId": 2,
+      "type": "audio",
+      "question": "Where The Come From That Kebaya",
+      "content": "unit2_audio1",
+      "sequence": "7",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 49,
+          "answerText": "Sulawesi",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 50,
+          "answerText": "Jawa",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 51,
+          "answerText": "Sumatera",
+          "isCorrectAnswer": true,
+          "expectation": "seseorang memakai kebaya yang cantik lalu temannya berkata berasal darimana kebaya tersebut lalu ia menjawab Sumatera"
+        },
+        {
+          "id": 52,
+          "answerText": "papua",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "unitId": 2,
+      "type": "audio",
+      "question": "What Sekar Doing For Perform For School Anniversary",
+      "content": "unit2_audio2",
+      "sequence": "8",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 53,
+          "answerText": "Speech",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 54,
+          "answerText": "Singing",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 55,
+          "answerText": "Saman Dances",
+          "isCorrectAnswer": true,
+          "expectation": "seseorang teman bertanya kita ingin menampilkan apa pada saat ulang tahun sekolah lalu ia menjawab saman dances yang berarti tarian saman"
+        },
+        {
+          "id": 56,
+          "answerText": "Kecak Dances",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "unitId": 3,
+      "type": "text",
+      "question": "Who Are Thomas Edison",
+      "content": "Read About The Following Text\nCan you imagine how your life is without telephone? How long wil it take to go to China without an airplane? Can you ímagine your lite without a light bulb? Telephone, airplane, and light bulb are only sorme of important inventions that make our lives easier. These inventions have changed the way people live. Thomas Alva Edison was the geníus who invented electríc light bulb for the first time. He was born on February 11, 1847. He did not go to school because he could not hear well. Hís mother taught him at home. Edison was smart that he íinvented many things. One of them is electric light bulb. He invented the first light bulb in 1879. The telephone is one of the most popular ways to communicate. Alexander Graham Bell invented the telephone in 1876. He was born on March 3, 1847 in Scotland. Both his mother and his wife were deaf. He wanted to invent a way in which he could talk to hís friends without moving. Now, we can easily talk to our friends and family even if they are in faraway country. Travelling would not be easier if there was no airplane. The Wriaht Brothers has changed the way people travel. The Wright Brothers invented the airplane in the beginning of the 21 century. The first airplane flew on December 17, 1903. The plane flew for 12 seconds. Now, we can travel in easily and comfortably on airplanes.",
+      "sequence": "1",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 57,
+          "answerText": "Invented Electric Light Bulb",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 58,
+          "answerText": "Old Man",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 59,
+          "answerText": "Invented Machine",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 60,
+          "answerText": "Invented The Telephone",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "unitId": 3,
+      "type": "text",
+      "question": "When Did Thomas Edison Invent Light Bulb",
+      "content": "",
+      "sequence": "2",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 61,
+          "answerText": "1847",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 62,
+          "answerText": "1846",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 63,
+          "answerText": "2003",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 64,
+          "answerText": "1879",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "unitId": 3,
+      "type": "text",
+      "question": "How Old Was Alexander Graham Bell When He Invented The Telephone",
+      "content": "",
+      "sequence": "3",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 65,
+          "answerText": "30",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 66,
+          "answerText": "42",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 67,
+          "answerText": "26",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 68,
+          "answerText": "29",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "unitId": 3,
+      "type": "text",
+      "question": "When Did The First Airplane Fly",
+      "content": "",
+      "sequence": "4",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 69,
+          "answerText": "December 16. 1903",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 70,
+          "answerText": "December 16. 1902",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 71,
+          "answerText": "December 17. 1903",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 72,
+          "answerText": "December 17. 1904",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "unitId": 3,
+      "type": "image",
+      "question": "",
+      "content": "unit3_image1",
+      "sequence": "5",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 73,
+          "answerText": "I Will Be A Singer Because I Have Microphone",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 74,
+          "answerText": "I will Be A singer because I love clean my room",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 75,
+          "answerText": "I will be a singer because my outfit looks so good",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 76,
+          "answerText": "I Will be singer because I love singing",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "unitId": 3,
+      "type": "image",
+      "question": "",
+      "content": "unit3_image2",
+      "sequence": "6",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 77,
+          "answerText": "I will be a chef because I love animal",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 78,
+          "answerText": "I will be a chef because I love eating",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 79,
+          "answerText": "I will be a chef so I can clean the kitchen",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 80,
+          "answerText": "I will be a chef because my voice very good",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "unitId": 3,
+      "type": "image",
+      "question": "",
+      "content": "unit3_image3",
+      "sequence": "7",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 81,
+          "answerText": "I will be a teacher so I don’t need to be anything else",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 82,
+          "answerText": "I will be a teacher so I can make people be smart",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 83,
+          "answerText": "I will be a teacher so o can come to school lately",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 84,
+          "answerText": "I will be a teacher because I don’t like to be a doctor",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "unitId": 3,
+      "type": "image",
+      "question": "",
+      "content": "unit3_image4",
+      "sequence": "8",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 85,
+          "answerText": "I will be a nurse so I can help people",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 86,
+          "answerText": "I will be a astronaut",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 87,
+          "answerText": "I will be a doctor so I can help sick people",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 88,
+          "answerText": "I will be a doctor so I can use the uniform",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "unitId": 4,
+      "type": "image",
+      "question": " Where Are Those People probably At?",
+      "content": "unit4_image1",
+      "sequence": "1",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 89,
+          "answerText": "Market",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 90,
+          "answerText": "Hospital",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 91,
+          "answerText": "Bank",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 92,
+          "answerText": "House",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "unitId": 4,
+      "type": "text",
+      "question": " What Are Those People probably Do ?",
+      "content": "",
+      "sequence": "2",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 93,
+          "answerText": "Buying A Clothes",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 94,
+          "answerText": "Selling And Buying Some Stuff",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 95,
+          "answerText": "Rob The Market",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 96,
+          "answerText": "Exchange The Money",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "unitId": 4,
+      "type": "text",
+      "question": " Mention Names Of The Things You Usually Buy At A Market ? ",
+      "content": "",
+      "sequence": "3",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 97,
+          "answerText": "Stones, Paper, Vegetables",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 98,
+          "answerText": "Rice, Meat , Fruit ",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 99,
+          "answerText": "Fruit, Vegetables and Frozen Food",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 100,
+          "answerText": "Bag , Drink , FastFood",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "unitId": 4,
+      "type": "text",
+      "question": " The Market Is Close To The Writer's House ? ",
+      "content": "True OR False Session\n Go to A Traditional Market l love going to the traditional market near my house with my mom. It's only 5-minute walk from my house. My mom goes to that market almost every day. She leaves around 4.30 a.m. and comes back half an hour later. On the weekends, I usually go with her. This traditional market is not a big market, but we can find lots of things, such as fruits, vegetables, fish, meats, kitchen utensils and other groceries there. The vegetables, fish, chicken, and meat sold there are always fresh. Some people also sell fruits and vegetables that they grow in their own farm. The market opens early in the morning. The sellers usually arrive around 4 in the morning and prepare their goods. What 1 love from traditíonal market ís because most things in here are not expensive. You can even bargain for the price if you buy in large quantity. When I go to the tradítionál market, we often meet with our neighbors or even my classmates or schoolmates. They are also with their mom shopping for something in the market.",
+      "sequence": "4",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "easy",
+      "answers": [
+        {
+          "id": 101,
+          "answerText": "true",
+          "isCorrectAnswer": true,
+          "explanation": "You have to pay close attention to the sentence in the text that it is true that the author's house is close to the market"
+        },
+        {
+          "id": 102,
+          "answerText": "false",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "unitId": 4,
+      "type": "text",
+      "question": " The Market Opens At 5 A.M ? ",
+      "content": "",
+      "sequence": "5",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "easy",
+      "answers": [
+        {
+          "id": 103,
+          "answerText": "true",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 104,
+          "answerText": "false",
+          "isCorrectAnswer": true,
+          "explanation": "as already explained that the market does not close at 5am. You have to pay attention to the questions properly and well in order to answer this question"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "unitId": 4,
+      "type": "text",
+      "question": "The Writter Usually Goes To The Market On The Weekdays ? ",
+      "content": "",
+      "sequence": "6",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 105,
+          "answerText": "true",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 106,
+          "answerText": "false",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "unitId": 4,
+      "type": "audio",
+      "question": " How Much Is A Kilogram Of Carrot ? ",
+      "content": "unit4_audio1",
+      "sequence": "7",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 107,
+          "answerText": "Twenty-Five Thousand Rupiahs",
+          "isCorrectAnswer": true,
+          "explanation": "twenty five is dua puluh lima, twenty two is dua puluh dua, twenty three is dua puluh tiga, twenty four is dua puluh empat. So in this question u must listen carefully. The Answers is Twenty-Five"
+        },
+        {
+          "id": 108,
+          "answerText": "Twenty-Two Thousand Rupiahs",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 109,
+          "answerText": "Twenty-Three Thousand Rupiah",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 110,
+          "answerText": "Twenty-Four Thousand Rupiahs",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "unitId": 4,
+      "type": "audio",
+      "question": " How Much Kilos She Want ? ",
+      "content": "",
+      "sequence": "8",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 111,
+          "answerText": "1 Kilos",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 112,
+          "answerText": "2 Kilos",
+          "isCorrectAnswer": true,
+          "explanation": "dengarkan baik baik perkacakapan tersebut bahwa pembeli menginginkan two kilos artinya 2 kilogram wortel."
+        },
+        {
+          "id": 113,
+          "answerText": "3 Kilos",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 114,
+          "answerText": "4 Kilos",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "unitId": 5,
+      "type": "image",
+      "question": " Do you think the picture show healthy habbits ?",
+      "content": "unit5_image1",
+      "sequence": "1",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 115,
+          "answerText": "Maybe Yes",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 116,
+          "answerText": "Of Course Yes",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 117,
+          "answerText": "Absolutely No",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 118,
+          "answerText": "I don’t know",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "unitId": 5,
+      "type": "text",
+      "question": " What Will Happen If You Don’t Do The Activity In The Pictures ?",
+      "content": "",
+      "sequence": "2",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 119,
+          "answerText": "You Will Be healthy",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 120,
+          "answerText": "You Will Have Stomatch",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 121,
+          "answerText": "You Will Have Bad Emotions",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 122,
+          "answerText": "Do You Will Get Sick",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "unitId": 5,
+      "type": "text",
+      "question": " What Will Happened To Vino ?",
+      "content": "Read Aloud Following The Text\nVino is absent today. He has got a toothache since yesterday evening. It is really painful. This afternoon, he will go to the dentist with his monm. Do you know why he has toothache? Vino loves eating sweets, especially chocolate and candies. He eats them every day, but he rarely brushes his teeth. That ís why he has got toothache. It is important for us to keep our body healthy. To keep healthy, we can do several healthy habits below. 1. Eat healthy food. We should eat vegetables and fruits. Vegetables and fruits contain beneficial ingredients that can make our body healthy. We can eat our favorite food, such as pízza, fríed chícken, or burger, but we must not eat them too much. 2. Be cean. We should never forget to wash our hands before we eat and brush our teeth after we eat and before we go to sleep. We should also take a bath ín the morning and in the evening. 3. Do some exercises. Watching TV or playing games may SOunds very exciting, but those activities make you not moving your body. Exercise is good for our body. It can also increase our enerqy and can reduce the risk of us getting sick. We must do exercise regularly. We can go jogging, cycling with friends, or swimming. A. Sleep well. Our boody needs to rest to grow well. We need mnínímumn eíght hours of sleep every day. So, We should go to bed early and wake up early in the morníng so you feel fresh.",
+      "sequence": "3",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 123,
+          "answerText": "Broken Leg",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 124,
+          "answerText": "Flu",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 125,
+          "answerText": "Tootache",
+          "isCorrectAnswer": true,
+          "explanation": "dikatakan bahwa vino sedang sakit gigi, yang berarti sakit gigi adalah \"Tootache\""
+        },
+        {
+          "id": 126,
+          "answerText": "Bledding",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "unitId": 5,
+      "type": "text",
+      "question": " What Does Vino Like To Eat ?",
+      "content": "",
+      "sequence": "4",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 127,
+          "answerText": "Vegetables And Meat",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 128,
+          "answerText": "Chips And Coke",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 129,
+          "answerText": "chocolate And candies",
+          "isCorrectAnswer": true,
+          "explanation": "tidak heran vino mengalami sakit gigi karena dia menyukai makanan makanan yang tidak sehat untuk giginya. Vino suka memakan chocolate dan Candies (Permen)"
+        },
+        {
+          "id": 130,
+          "answerText": "Bread And Cake",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "unitId": 5,
+      "type": "text",
+      "question": " What Food Should We Eat To Keep healthy ?",
+      "content": "",
+      "sequence": "5",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 131,
+          "answerText": "Pizza And chicken",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 132,
+          "answerText": "Burger And Chicken",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 133,
+          "answerText": "Meat And Chips",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 134,
+          "answerText": "Vegetables And Fruit",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "unitId": 5,
+      "type": "text",
+      "question": " You Are Not Sick ",
+      "content": "Y A E H T H L",
+      "sequence": "6",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 135,
+          "answerText": "Y A E H T H L",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 136,
+          "answerText": "T H A E L Y H",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 137,
+          "answerText": "H E A L T H Y",
+          "isCorrectAnswer": true,
+          "explanation": "menyusun kalimat dengan benar HEALTHY yang berarti sehat"
+        },
+        {
+          "id": 138,
+          "answerText": "H A E L T H Y",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "unitId": 5,
+      "type": "text",
+      "question": " Disease That Makes You Have A Runny Nose ",
+      "content": "L U F I N N E Z A",
+      "sequence": "7",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 139,
+          "answerText": "I N F L U E N Z A",
+          "isCorrectAnswer": true,
+          "explanation": "kondisi ini adalah kondisi ketika hidung tersumbat yang disebut juga sebagai INFLUENZA atau flu"
+        },
+        {
+          "id": 140,
+          "answerText": "I N F L U E Z A N",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 141,
+          "answerText": "I N F L E U Z A N",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 142,
+          "answerText": "I N F L E N A Z N",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "unitId": 5,
+      "type": "text",
+      "question": " Disease That Makes You Hard To Breath ",
+      "content": "A M S A T H",
+      "sequence": "8",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 143,
+          "answerText": "T A S M A H",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 144,
+          "answerText": "A S M A T H",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 145,
+          "answerText": "A S T H M A",
+          "isCorrectAnswer": true,
+          "explanation": "keadaan dimana seseorang sulit bernafas penyakit ini bernama asma atau ASTHMA"
+        },
+        {
+          "id": 146,
+          "answerText": "S M T A H A",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "unitId": 6,
+      "type": "image",
+      "question": " Who Are They ?",
+      "content": "unit6_image1",
+      "sequence": "1",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 147,
+          "answerText": "Heroes From Indonesia",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 148,
+          "answerText": "Military People",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 149,
+          "answerText": "The People Who Saved Indonesia",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 150,
+          "answerText": "important Heroes",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "unitId": 6,
+      "type": "text",
+      "question": " What Did They Do For Indonesia? ",
+      "content": "",
+      "sequence": "2",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 151,
+          "answerText": "Saving Public From Bad People",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 152,
+          "answerText": "Influent Person",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 153,
+          "answerText": "Liberate Indonesia",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 154,
+          "answerText": "All The Answer Is Correct",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "unitId": 6,
+      "type": "text",
+      "question": " Who Was Soekarno ?",
+      "content": "Soekarno \n Soekarno was the first president of Indonesia. He was born in Blítar on June 6, 1901. Hís parents named hím Kusno Sosrodíharío, but later they changed it into Soekarno after he experíenced illness during his chíldhood. Soekarno studied in Dutch prímary and secondary school. After that, he contínued his study in Bandung Institute of Technology (ITB) ín 1921 and graduated in 1926 as an architect. Soekarno was very intelligent that he could speak several languages He could speak English, German, French, Arabic, Japanese, Dutch, and several Indonesian regional languages, such Javanese and Balíinese. Soekarno was appointed as the first president of Indonesia with Mohammad Hatta as the vice president after he declared Indonesia Independence on August 17, 1945. Before he became a president, the Dutch arrested him several times for his brave movement to gain freedom for Indonesia. He worked with other nationalist Japanese to gain suppert for Indonesía índependence. Soekarno also fomulated the five principles for Indonesían people (Pancasila) on June 1, 1945. He served as president from 1945 until 1967. He died on June 21, 1970.",
+      "sequence": "3",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 155,
+          "answerText": "The Second president",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 156,
+          "answerText": "Heroes",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 157,
+          "answerText": "The First President",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 158,
+          "answerText": "The Best President",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "unitId": 6,
+      "type": "text",
+      "question": " Who Was The First Vice President Of Indonesia? ",
+      "content": "",
+      "sequence": "4",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 159,
+          "answerText": "Soekarno",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 160,
+          "answerText": "Mohammad Hatta",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 161,
+          "answerText": "Kusno Sosrodíharjo",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 162,
+          "answerText": "Soeharto",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "unitId": 6,
+      "type": "text",
+      "question": " When Did Soekarno Pass Away? ",
+      "content": "",
+      "sequence": "5",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 163,
+          "answerText": "21, 1971",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 164,
+          "answerText": "22, 1972",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 165,
+          "answerText": "22, 1970",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 166,
+          "answerText": "22, 1870",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "unitId": 6,
+      "type": "text",
+      "question": " General Soedirman Was Born In West Java? ",
+      "content": "General Soedirman \n was born in Rembana, Central Java. He was the military commander of Indonesian forces during the fight for independence from the Dutch. During the Japanese occupation, he joined PETA, a national army promoted by the Japanese, and got his first military educatíon. After Indonesia gained their independence, he was succeeded to disarmed the rest of Japanese soldiers in Banyumas. In December 1945, he got the honor to be the General. The most important is, he didn't gain his General position through milítary academy, but because of his loyalty. The next five years, Soedirman was sick with tuberculosis. While still in a bad health, Soedirman still led several guerilla wars against the Dutch. Mr. Soekarno, Indonesia's first president, didn't allow him to led the guerillas, but Soedirman dídn't do what Soekarno said because of his responsibil ity as the leader. With all the power he still had, Soedirman led his soldiers moved from one place to another. Soedirman always tried to keep up the spirit of his soldiers and instructed them like there's nothing wrong with hb health until one day he had to leave the war because his body could no longer handle the burden. General Soedirman died in January 1950 a was buried in Heroes' Cemetery in Semaki, Yogyakarta. For his brave and sacrifice, Indonesian government gave him the title of Nationol Hero of Indonesia as an Independence Defender Hero",
+      "sequence": "6",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 167,
+          "answerText": "true",
+          "isCorrectAnswer": false,
+          "expectation": "cerita tentang seorang jendral Soedirman dikatakan bahwa jenderal Soedirman tidak lahir di west java melainkan central java yang berarti jawa tengah"
+        },
+        {
+          "id": 168,
+          "answerText": "false",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "unitId": 6,
+      "type": "text",
+      "question": " During The Japanese Occupation, Soedirman Joined PETA? ",
+      "content": "",
+      "sequence": "7",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 169,
+          "answerText": "true",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 170,
+          "answerText": "false",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "unitId": 6,
+      "type": "text",
+      "question": " The Next Five Years Soedirman Was Sick With Tuberculosis? ",
+      "content": "",
+      "sequence": "8",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 171,
+          "answerText": "true",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 172,
+          "answerText": "false",
+          "isCorrectAnswer": true,
+          "expectation": "lima tahun kemudian jendral Soedirman meninggal dunia karena penyakit tulang adalah tidak benar FALSE"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "unitId": 7,
+      "type": "image",
+      "question": "Which One The Biggest Planet",
+      "content": "unit7_image1",
+      "sequence": "1",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 173,
+          "answerText": "Sun",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 174,
+          "answerText": "Earth",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 175,
+          "answerText": "Uranus",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 176,
+          "answerText": "Jupiter",
+          "isCorrectAnswer": true,
+          "explanation": "planet terbesar diantariksa kita adalah jupiter, kenapa bukan matahari ? karena matahari tidak bisa disebut sebagai planet"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "unitId": 7,
+      "type": "text",
+      "question": " How Many Planet Are There In Our Solar System? ",
+      "content": "",
+      "sequence": "2",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 177,
+          "answerText": "5",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 178,
+          "answerText": "1",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 179,
+          "answerText": "8",
+          "isCorrectAnswer": true,
+          "explanation": "antariksa galaxy kita memiliki 8 planet"
+        },
+        {
+          "id": 180,
+          "answerText": "7",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "unitId": 7,
+      "type": "text",
+      "question": " Which One Is The Smallest Planet? ",
+      "content": "",
+      "sequence": "3",
+      "isParentQuestion": false,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 181,
+          "answerText": "Mars",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 182,
+          "answerText": "Pluto",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 183,
+          "answerText": "Merkurius",
+          "isCorrectAnswer": true,
+          "explanation": "ada banyak planet yang ada di galaxy kita. namun ada planet yang terkecil juga terbesar lalu planet apa yang terkecil tersebut? Merkurius"
+        },
+        {
+          "id": 184,
+          "answerText": "Earth",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "unitId": 7,
+      "type": "text",
+      "question": " Venus Is The Hottest And The Brightest Planet ",
+      "content": "Our Solar System \n  Have you ever been to Planetarium or Bosscha? There, you observe objects in our solar system. In our solar system, the Sun is the biggest object. Sun is a star that provides light and heat for the Earth. There are also eight big objects known as planets. They are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. There are also other space objects, such as dwarf planets, moons, asteroids, comets, and meteoroids. Among other 8 planets, Mercury is the smallest planet. It is also the closest planet to the Sun. Venus is the hottest planet. It is the brightest object in the sky after the Sun and the Moon. The biggest planet is Jupiter and the farthest planet from the Sun is Neptune. Earth is our planet, where living objects can live. It is the third closest planet to the Sun. Some of the planets have satellite, but the Moon is the Earth's satellite. Do you know that every planet in our solar system has seasons? The seasons in other planets are different with the seasons in our Earth. Earth has four seasons; spring, summer, fall, and winter. The differences happen because of the tilt of the planet's axis, the shape of the orbít around the sun, and the atmosphere",
+      "sequence": "4",
+      "isParentQuestion": true,
+      "answers": [
+        {
+          "id": 185,
+          "answerText": "true",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 186,
+          "answerText": "false",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "unitId": 7,
+      "type": "text",
+      "question": " Uranus Is The Biggest Planet ",
+      "content": "",
+      "sequence": "5",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 187,
+          "answerText": "true",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 188,
+          "answerText": "false",
+          "isCorrectAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "unitId": 7,
+      "type": "text",
+      "question": " Moon Is The Earth's Satelite ",
+      "content": "",
+      "sequence": "6",
+      "isParentQuestion": false,
+      "answers": [
+        {
+          "id": 189,
+          "answerText": "true",
+          "isCorrectAnswer": true
+        },
+        {
+          "id": 190,
+          "answerText": "false",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "unitId": 7,
+      "type": "image",
+      "question": "Mom : Don’t Forget To wear thick Clothes, It’s …….. and ….. Outside \nSon : Okay Mom ",
+      "content": "unit7_image2",
+      "sequence": "7",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "medium",
+      "answers": [
+        {
+          "id": 191,
+          "answerText": "hot and warm",
+          "isCorrectAnswer":false
+        },
+        {
+          "id": 192,
+          "answerText": "autumn and sunny",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 193,
+          "answerText": "Snowy And Rainy",
+          "isCorrectAnswer": true,
+          "explanation": "ibu berkata jangan lupa memakai pakaian yang hangat lalu sang anak menjawab baik bu. percakapan ini menandakan cuaca dingin yang berarti cuaca sedang mengalami hujan dan bersalju"
+        },
+        {
+          "id": 194,
+          "answerText": "Windy And Freezing",
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "unitId": 7,
+      "type": "image",
+      "question": "Mom : Don’t Forget Ur Umbrella, It’s … These Days \n Son : Alright mom ",
+      "content": "unit7_image3",
+      "sequence": "8",
+      "isParentQuestion": true,
+      "isBankQuestion": true,
+      "level": "hard",
+      "answers": [
+        {
+          "id": 195,
+          "answerText": "stormy",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 196,
+          "answerText": "sunny",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 197,
+          "answerText": "warm",
+          "isCorrectAnswer": false
+        },
+        {
+          "id": 198,
+          "answerText": "rainy",
+          "isCorrectAnswer": true,
+          "expectation": "ibu berkata jangan lupa membawa payung mu lalu anaknya menjawab baiklah ibu. dengan percakapan ini kita dapat menyimpulkan bahwa cuaca sedang rainy yang berarti hujan"
+        }
+      ]
+    }
+  ]
+}

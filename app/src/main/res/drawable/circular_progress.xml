@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#000000" /> <!-- Warna background hitam -->
+    <corners android:radius="1000dp" /> <!-- Jari-jari besar untuk membuat bentuk lingkaran -->
+</shape>
